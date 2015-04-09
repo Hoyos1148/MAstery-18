@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x;
+	cout<<"Dame un numero y te dare un color"<<endl;
+	cin>>x;
+	if(x==1)
+	{
+		cout<<"Azul"<<endl;
+	}
+	if(x==2)
+	{
+		cout<<"negro"<<endl;
+	}
+	if(x==3)
+	{
+		cout<<"rojo"<<endl;
+	}
+	else
+	{
+		cout<<"no tienes color"<<endl;
+	}
+}
